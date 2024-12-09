@@ -9,6 +9,16 @@
         insertHtml(selector, "<div class='text-center'>Loading...</div>");
     };
 
+    var insertProperty = function (string, propName, propValue) {
+        var propToReplace = "{{" + propName + "}}";
+        string = string.replace(new RegExp(propToReplace, "g"), propValue);
+        return string;
+    };
+
+    this.insertHtml = insertHtml;
+    this.showLoading = showLoading;
+    this.insertProperty = insertProperty;
+
     showLoading("footer#footer");
     showLoading("header#header");
     
