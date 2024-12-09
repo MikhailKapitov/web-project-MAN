@@ -21,7 +21,7 @@ header#header {
     position: fixed; 
     top: 0; 
     left: 0;
-    z-index: 1000;/* chisto chotoby poverh bylo*/
+/*    z-index: 1000;/* chisto chotoby poverh bylo*/*/
 }
 
 header#header .logo {
