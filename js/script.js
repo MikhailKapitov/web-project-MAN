@@ -10,8 +10,7 @@
     };
 
     var insertProperty = function (string, propName, propValue) {
-        var propToReplace = "{{" + propName + "}}";
-        string = string.replace(new RegExp(propToReplace, "g"), propValue);
+        string = string.replace(new RegExp(propName, "g"), propValue);
         return string;
     };
 
