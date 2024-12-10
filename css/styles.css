@@ -19,9 +19,9 @@ header#header {
     padding: 30px 5px; 
     width: 100%; 
     position: fixed; 
-    top: 0; 
+    top: 0px; 
     left: 0;
-/*    z-index: 1000;/* chisto chotoby poverh bylo*/*/
+   z-index: 1000;/* chisto chotoby poverh bylo*/
 }
 
 header#header .logo {
@@ -60,3 +60,74 @@ header#header .buttons button:hover {
     background-color: white;
     color: gray;
 }
+
+
+
+.about-person {
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+    border: 2px solid gray; 
+    border-radius: 10px; 
+    padding: 20px; 
+    margin: 20px 0; 
+    background-color: #f9f9f9; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.about-person .person-photo img {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 10px; 
+    object-fit: cover; 
+}
+
+
+.about-person .person-info {
+    flex: 1; 
+}
+
+
+.about-person .person-info h2 {
+    font-size: 24px; 
+    margin: 0 0 10px; 
+    color: #333; 
+}
+
+.about-person .person-info p {
+    font-size: 16px; 
+    margin: 0; 
+    color: #555; 
+}
+
+
+#content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.about-person{
+    margin: 220px auto;
+    width: 500px;
+    text-align: center;
+    
+}
+
+.blog-post {
+    margin: 150px auto;
+    width: 250px;
+    text-align: center;
+}
+
+.blog-image{
+    width: 200px;
+}
+
+
+@media only screen and (max-width: 426px) {
+    #content {
+        display: block;
+    }
+}
+
