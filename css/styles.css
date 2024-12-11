@@ -101,29 +101,25 @@ header#header .buttons button:hover {
 }
 
 
-#content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-
 .about-person{
-    margin: 220px auto;
+    margin:100px auto;
     width: 500px;
     text-align: center;
     
 }
 
-/* .blog-post {
-    margin: 150px auto;
-    width: 250px;
-    text-align: center;
-} */
+
+
+#blog-grid  {
+    margin-top: 150px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 .blog-post {
 
-
-    margin: 150px auto;
+    margin: 50px auto;
     width: 450px; 
     text-align: center;
     padding: 20px;  
@@ -134,10 +130,8 @@ header#header .buttons button:hover {
     transition: all 0.3s ease; 
 }
 
-
-
 .blog-image{
-    width: 200px;
+    width: auto;
     margin: auto;
 }
 #content img {
@@ -146,9 +140,85 @@ header#header .buttons button:hover {
      
   }
 
-@media only screen and (max-width: 426px) {
-    #content {
+  /* temp realization  */
+  #about-site {
+    margin: auto;
+    max-width: 800px; 
+    /* margin: auto;  */
+    padding-top: 150px;
+    padding-bottom:30px; 
+    background-color: #f7f7f7; 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+#about-site h2 {
+    font-size: 24px; 
+    color: #333; 
+    text-align: center; 
+    margin-bottom: 15px; 
+}
+
+
+#about-site p {
+    font-size: 16px; 
+    color: #555; 
+    line-height: 1.6; 
+    margin-bottom: 15px; 
+}
+
+
+#about-site ul {
+    list-style-type: disc; 
+    margin-left: 20px; 
+    padding-left: 0; 
+}
+
+#about-site ul li {
+    font-size: 16px; 
+    color: #444; 
+    margin-bottom: 10px; 
+}
+
+/* Отдельные секции */
+#about-site section {
+    margin-bottom: 30px;
+}
+
+  /* end temp */
+
+
+
+/* @media only screen and (max-width: 426px) {
+    #blog-grid {
         display:block;
     }
     
+} */
+
+@media only screen and (max-width: 768px) {
+    #blog-grid {
+        grid-template-columns: 1fr; 
+        gap: 20px; 
+    }
+
+    .blog-post {
+        width: 427px; 
+        margin: 0 auto; 
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    #blog-grid {
+        display: flex; 
+        flex-direction: column; 
+        gap: 15px; /
+    }
+
+    .blog-post {
+        width: 100%; 
+        margin: 0; 
+    }
 }
