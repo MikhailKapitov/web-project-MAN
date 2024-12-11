@@ -1,7 +1,7 @@
 (function (global) {
 
 
-    this.showLoading("content#content");
+    this.showLoading("div#blog-list");
 
     $ajaxUtils.sendGetRequest('./snippets/blog.html', 
         function (blog_html_base) {
