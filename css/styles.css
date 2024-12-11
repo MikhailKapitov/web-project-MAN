@@ -110,7 +110,7 @@ header#header .buttons button:hover {
 
 
 
-#blog-grid  {
+.illustrated-grid  {
     margin-top: 150px;
     margin-bottom: 30px;
     display: grid;
@@ -192,14 +192,14 @@ header#header .buttons button:hover {
 
 
 /* @media only screen and (max-width: 426px) {
-    #blog-grid {
+    .illustrated-grid {
         display:block;
     }
     
 } */
 
 @media only screen and (max-width: 768px) {
-    #blog-grid {
+    .illustrated-grid {
         grid-template-columns: 1fr; 
         gap: 20px; 
     }
@@ -211,7 +211,7 @@ header#header .buttons button:hover {
 }
 
 @media only screen and (max-width: 426px) {
-    #blog-grid {
+    .illustrated-grid {
         display: flex; 
         flex-direction: column; 
         gap: 15px; /
