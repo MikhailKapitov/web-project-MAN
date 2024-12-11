@@ -1,7 +1,7 @@
 (function (global) {
 
 
-    this.showLoading("div#blog-list");
+    this.showLoading("div#blog-grid");
 
     $ajaxUtils.sendGetRequest('./snippets/blog.html', 
         function (blog_html_base) {
@@ -19,7 +19,7 @@
                         console.log(curr_html);
                         html += curr_html;
                     }
-                    insertHtml("content#content", html);
+                    insertHtml("div#blog-grid", html);
                 
                 },
                 true);
