@@ -191,6 +191,33 @@ header#header .buttons button:hover {
 
 
 
+  @media only screen and (max-width: 1200px){
+    .illustrated-grid {
+        margin-top: 130px;
+    }
+
+
+    .blog-post {
+        width: 400px; 
+        margin: 15px auto;
+    }
+
+
+    .about-person {
+        margin: 150px auto;
+        width: 420px;
+        padding: 10px;
+    }
+
+    
+    .about-person .person-photo img {
+        width: 130px; 
+        border-radius: 10px; 
+    }
+
+  }
+
+
 
 @media only screen and (max-width: 768px) {
 
