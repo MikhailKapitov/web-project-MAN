@@ -203,8 +203,8 @@ header#header .buttons button:hover {
     }
 
 
-    .about-person {
-        margin: 150px auto;
+    .about-person { 
+        margin: 50% auto;
         width: 420px;
         padding: 10px;
     }
