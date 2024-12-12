@@ -10,6 +10,7 @@ footer#footer {
 	font-size: 14px; 
 }
 
+
 header#header {
     background-color: gray; 
     color: white; 
@@ -76,8 +77,8 @@ header#header .buttons button:hover {
 }
 
 .about-person .person-photo img {
-    width: 200px; 
-    height: 200px; 
+    width: 180px; 
+    height: 180px; 
     border-radius: 10px; 
     object-fit: cover; 
 }
@@ -144,7 +145,6 @@ header#header .buttons button:hover {
   #about-site {
     margin: auto;
     max-width: 800px; 
-    /* margin: auto;  */
     padding-top: 150px;
     padding-bottom:30px; 
     background-color: #f7f7f7; 
@@ -182,7 +182,6 @@ header#header .buttons button:hover {
     margin-bottom: 10px; 
 }
 
-/* Отдельные секции */
 #about-site section {
     margin-bottom: 30px;
 }
@@ -191,34 +190,111 @@ header#header .buttons button:hover {
 
 
 
-/* @media only screen and (max-width: 426px) {
-    .illustrated-grid {
-        display:block;
-    }
-    
-} */
+
 
 @media only screen and (max-width: 768px) {
+
+    header#header .logo {
+        text-align: left; 
+        height: 50px; 
+    }
+    header#header .logo img {
+        width: 60px; 
+        height: 60px; 
+    }
+    header#header .logo span {
+        left: 70px; 
+        top: 30px; 
+        font-size: 18px; 
+    } 
+
     .illustrated-grid {
+        margin-top: 130px;
         grid-template-columns: 1fr; 
-        gap: 20px; 
+    }
+    footer#footer {
+        position: fixed; 
+        padding: 8px 0; 
+        font-size: 10px; 
     }
 
     .blog-post {
-        width: 427px; 
-        margin: 0 auto; 
+        width: 420px; 
+        margin: 15px auto;
     }
+
+
+    .about-person {
+        margin: 15px auto;
+        width: 420px;
+        padding: 10px;
+    }
+
+    
+    .about-person .person-photo img {
+        width: 130px; 
+        border-radius: 10px; 
+    }
+
 }
 
 @media only screen and (max-width: 426px) {
     .illustrated-grid {
-        display: flex; 
+        margin-top: 100px;
+        grid-template-columns: 1fr; 
+    }
+    header#header {
         flex-direction: column; 
-        gap: 15px; /
+        align-items: flex-start; 
+        padding: 10px; 
+        width: 100%;
+    }
+    header#header .logo {
+        text-align: left; 
+        height: 50px; 
+    }
+    header#header .logo img {
+        width: 50px; 
+        height: 50px; 
+    }
+    header#header .logo span {
+        left: 70px; 
+        top: 30px; 
+        font-size: 18px; 
+    } 
+    header#header .buttons {
+        width: 200px;
+        height: 30px; 
+        margin: auto;
+    }
+
+    header#header .buttons button {
+        width: 90%; 
+        font-size: 10px; 
+        padding: 10px;
+        margin: auto;
+    } 
+
+    .about-person .person-photo img {
+        width: 100px; 
+        border-radius: 5px; 
+    }
+    .about-person .person-info h2 {
+        font-size: 18px; 
+    }
+    
+    .about-person .person-info p {
+        font-size: 15px; 
+    }
+    .about-person{
+        margin:20px auto;
+        width: 280px;
+        gap: 20px; 
+        padding: 10px; 
     }
 
     .blog-post {
-        width: 100%; 
-        margin: 0; 
+        width: 280px; 
+        margin: 15px auto;
     }
 }
