@@ -16,5 +16,17 @@
 		"date": "09.12.2024",
 		"text": "We realise that we could've just ripped some random website off, but this actually seems fun! Also, Yaakov Chaikin inspired us. <3\nAs for the theme, we decided to do something actually enjoyable for us, instead of just recreating some online shop or whatever.",
 		"img_source": "./images/YaakovChaikin.jpg"
+	},
+	{
+		"name": "ICPC merch.",
+		"date": "26.12.2024",
+		"text": "I returned from ICPC a while back. Finally remembered to add a picture! Look at all this stuff!\nP.s.: They also gave us T-shirts, but I was wearing it while taking the picture. :)",
+		"img_source": "./images/ICPC_merch_1.jpg"
+	},
+	{
+		"name": "ICPC merch (Pt. 2).",
+		"date": "26.12.2024",
+		"text": "Totally forgot to show off my badge!",
+		"img_source": "./images/ICPC_merch_2.jpg"
 	}
 ]
