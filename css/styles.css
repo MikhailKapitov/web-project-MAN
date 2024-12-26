@@ -30,8 +30,18 @@ header#header .logo {
     align-items: center; 
     gap: 10 px; 
     font-size: 18px; 
-    font-weight: bold; 
+    font-weight: bold;
 }
+
+header #header .logo span {
+    color: white;
+    transition: all 0.3s ease;
+}
+header #header .logo:hover span {
+    color: black;
+    text-decoration: bold;
+}
+
 
 header#header .logo span {
     position: absolute; 
