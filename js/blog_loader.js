@@ -16,7 +16,7 @@
                         curr_html = this.insertProperty(curr_html, "{{data}}", blog_list[i].date);
                         curr_html = this.insertProperty(curr_html, "{{text}}", this.insertProperty(blog_list[i].text, "\n", "<br>"));
                         curr_html = this.insertProperty(curr_html, "{{image}}", blog_list[i].img_source);
-                        console.log(curr_html);
+                        // console.log(curr_html);
                         html += curr_html;
                     }
                     insertHtml("div.illustrated-grid", html);
