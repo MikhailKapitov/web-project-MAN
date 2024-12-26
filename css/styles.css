@@ -317,7 +317,7 @@ header#header .buttons button:hover {
 
 }
 
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 509px) {
     .illustrated-grid {
         margin-top: 100px;
         grid-template-columns: 1fr; 
