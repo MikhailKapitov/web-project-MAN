@@ -22,7 +22,7 @@ header#header {
     position: fixed; 
     top: 0px; 
     left: 0;
-   z-index: 1000;/* chisto chotoby poverh bylo*/
+    z-index: 1000;
 }
 
 header#header .logo {
@@ -151,8 +151,8 @@ header#header .buttons button:hover {
      
   }
 
-  /* temp realization  */
-  #about-site {
+
+#about-site {
     margin: auto;
     max-width: 800px; 
     padding-top: 150px;
@@ -213,13 +213,11 @@ header#header .buttons button:hover {
     width: 80%;
     margin-bottom: 15px;
     margin-top: 15px;
-/*    border: 5px solid #333;*/
     border-radius: 6px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 
-  /* end temp */
 
 
 
