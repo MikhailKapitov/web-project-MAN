@@ -102,13 +102,13 @@ header#header .buttons button:hover {
 .about-person .person-info h2 {
     font-size: 24px; 
     margin: 0 0 10px; 
-    color: #333; 
+    color: #000000; 
 }
 
 .about-person .person-info p {
     font-size: 16px; 
     margin: 0; 
-    color: #555; 
+    color: #171717; 
 }
 
 
@@ -225,6 +225,21 @@ body{
     margin: 0;
     background-size: auto 10%;
 }
+
+.person-Umarov {
+    background-image: url('../images/backGroundUmarov.svg');
+    background-repeat: repeat;
+    margin: 0;
+    background-size: auto 70%;
+}
+
+.person-Kapitov {
+    background-image: url('../images/backGroundKapitov.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
 
 
 
