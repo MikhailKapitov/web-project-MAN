@@ -3,42 +3,49 @@
 		"name": "This is my first blog!!!",
 		"date": "09.12.2024",
 		"text": "Hello, World!\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\ntempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,\nquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\nconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse\ncillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non\nproident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-		"img_source": "https://placehold.co/600x600"
+		"img_source": "https://placehold.co/600x600",
+		"personal_class": "person-Kapitov"
 	},
 	{
 		"name": "This guy ROCKS.",
 		"date": "09.12.2024",
 		"text": "We <3 Yaakov Chaikin.",
-		"img_source": "./images/YaakovChaikin.svg"
+		"img_source": "./images/YaakovChaikin.svg",
+		"personal_class": "person-Kapitov"
 	},
 	{
 		"name": "A bit about our project.",
 		"date": "09.12.2024",
 		"text": "We realise that we could've just ripped some random website off, but this actually seems fun! Also, Yaakov Chaikin inspired us. <3\nAs for the theme, we decided to do something actually enjoyable for us, instead of just recreating some online shop or whatever.",
-		"img_source": "./images/YaakovChaikin.jpg"
+		"img_source": "./images/YaakovChaikin.jpg",
+		"personal_class": "person-Kapitov"
 	},
 	{
 		"name": "ICPC merch.",
 		"date": "26.12.2024",
 		"text": "I returned from ICPC a while back. Finally remembered to add a picture! Look at all this stuff!\nP.s.: They also gave us T-shirts, but I was wearing it while taking the picture. :)",
-		"img_source": "./images/ICPC_merch_1.jpg"
+		"img_source": "./images/ICPC_merch_1.jpg",
+		"personal_class": "person-Kapitov"
 	},
 	{
 		"name": "ICPC merch (Pt. 2).",
 		"date": "26.12.2024",
 		"text": "Totally forgot to show off my badge!",
-		"img_source": "./images/ICPC_merch_2.jpg"
+		"img_source": "./images/ICPC_merch_2.jpg",
+		"personal_class": "person-Kapitov"
 	},
 	{
 		"name": "The International Festival of Turkic-speaking Youth",
 		"date": "27.12.2024",
 		"text": "I was at the festival in July 11th-15th, 2023. Where Turkic youth from various countries met with support from the Turksoy organization and the Ministry of Culture and Tourism of Uzbekistan.Vestifal was very interesting and also brought an interesting experience in communicating with peoples with similar languages.",
-		"img_source": "./images/Nonik_fest.jpg"
+		"img_source": "./images/Nonik_fest.jpg",
+		"personal_class": "person-Umarov"
 	},
 	{
 		"name": "Happy New Year",
 		"date": "27.12.2024",
 		"text": "The new year will be coming soon, I hope this year has been interesting and great. We wish you all the best for 2025.",
-		"img_source": "./images/christmans_tree.jpg"
+		"img_source": "./images/christmans_tree.jpg",
+		"personal_class": "person-Umarov"
 	}
 ]

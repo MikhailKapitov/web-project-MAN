@@ -16,6 +16,7 @@
                         curr_html = this.insertProperty(curr_html, "{{data}}", blog_list[i].date);
                         curr_html = this.insertProperty(curr_html, "{{text}}", this.insertProperty(blog_list[i].text, "\n", "<br>"));
                         curr_html = this.insertProperty(curr_html, "{{image}}", blog_list[i].img_source);
+                        curr_html = this.insertProperty(curr_html, "{{personal-class}}", blog_list[i].personal_class);
                         // console.log(curr_html);
                         html += curr_html;
                     }
