@@ -28,5 +28,17 @@
 		"date": "26.12.2024",
 		"text": "Totally forgot to show off my badge!",
 		"img_source": "./images/ICPC_merch_2.jpg"
+	},
+	{
+		"name": "The International Festival of Turkic-speaking Youth",
+		"date": "27.12.2024",
+		"text": "I was at the festival in July 11th-15th, 2023. Where Turkic youth from various countries met with support from the Turksoy organization and the Ministry of Culture and Tourism of Uzbekistan.Vestifal was very interesting and also brought an interesting experience in communicating with peoples with similar languages.",
+		"img_source": "./images/Nonik_fest.jpg"
+	},
+	{
+		"name": "Happy New Year",
+		"date": "27.12.2024",
+		"text": "The new year will be coming soon, I hope this year has been interesting and great. We wish you all the best for 2025.",
+		"img_source": "./images/christmans_tree.jpg"
 	}
 ]
