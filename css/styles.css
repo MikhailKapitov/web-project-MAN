@@ -234,13 +234,17 @@ body{
 }
 
 .person-Kapitov {
-    background-image: url('../images/backGroundKapitov.jpg');
+    background-image: url('../images/backGroundKapitov.svg');
     background-size: cover;
     background-position: center;
+    background-size: auto 20%;
     border-radius: 10px;
 }
 
-
+.person-Kapitov img{
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+    border-radius: 20px;
+}
 
 
 
