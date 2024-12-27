@@ -217,6 +217,15 @@ header#header .buttons button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+body{
+    background-image: url('./../images/snowflakes.svg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: top left;
+    margin: 0;
+    background-size: auto 10%;
+}
+
 
 
 
